@@ -73,9 +73,8 @@ gm_tidy <- tibble %>%
 # present newly reshaped data frame into a table, with additional formatting (preserve row and column labels)
 gm_tidy %>%
 knitr::kable(caption = "This table summarizes the life expectancy every 4 years for Canada, France, Japan, New Zealand, and South Africa")
-
 ```
-<br/>
+
 
 
 For the most part, the 5 countries of interest in our data analysis show improvement in life expectancy at each subsequent timepoint/every 5 years. The only exception is SOuth Africa, where there is a small decline from 1992 to 1997, but the saw sharper decline for the 2 subsequent timepoints after 1997. Life expectancy is generally in the same range between Canada, Japan, France, and New Zealand, but it is noticeable lower comparatively for South Africa.

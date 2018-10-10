@@ -216,14 +216,6 @@ on a table.
 <td align="right">80.204</td>
 <td align="right">49.339</td>
 </tr>
-<tr class="odd">
-<td align="right"><br/></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
 </tbody>
 </table>
 
