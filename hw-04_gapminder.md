@@ -367,7 +367,9 @@ the csv into our R-Studio environment.
 
 Working with two dataframes **pdata (x)** and **tdata (y)**, we will use
 *left\_join*, *right\_join*, *inner\_join*, *semi\_join*, *full\_join*,
-and *anti\_join*.
+and *anti\_join*. The player data consists of players playing all around
+the world, from clubs in all continents. The club data consists of teams
+whom are very famous and globally known.
 
 ### left\_join(x,y)
 

@@ -172,7 +172,7 @@ We loaded the tidyverse package earlier, the tidyverse package contains **dplyr*
 
 ### The Data
 
-Working with two dataframes **pdata (x)** and **tdata (y)**, we will use *left_join*, *right_join*, *inner_join*, *semi_join*, *full_join*, and *anti_join*.
+Working with two dataframes **pdata (x)** and **tdata (y)**, we will use *left_join*, *right_join*, *inner_join*, *semi_join*, *full_join*, and *anti_join*. The player data consists of players playing all around the world, from clubs in all continents. The club data consists of teams whom are very famous and globally known.
 
 ### left_join(x,y)
 ```{r, left_join}
