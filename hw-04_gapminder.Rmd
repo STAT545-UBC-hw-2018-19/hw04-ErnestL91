@@ -72,7 +72,7 @@ gm_tidy <- tibble %>%
 
 # present newly reshaped data frame into a table, with additional formatting (preserve row and column labels)
 gm_tidy %>%
-    knitr::kable(caption = "This table summarizes the life expectancy every 4 years for Canada,                 France, Japan, New Zealand, and South Africa")
+knitr::kable(caption = "This table summarizes the life expectancy every 4 years for Canada, France, Japan, New Zealand, and South Africa")
 
 ```
 <br/>
@@ -168,7 +168,7 @@ tdata <- read_csv("team_data.csv", skip = 0) # read team data, don't skip any ro
 
 ```
 
-we loaded the tidyverse package earlier, the tidyverse package contains **dplyr** which provides the join functions we will be using. The **readr** package allows us to use the *read_csv()* function to upload the csv into our R-Studio environment.
+We loaded the tidyverse package earlier, the tidyverse package contains **dplyr** which provides the join functions we will be using. The **readr** package allows us to use the *read_csv()* function to upload the csv into our R-Studio environment.
 
 ### The Data
 
@@ -243,7 +243,7 @@ The **left_join** function is a mutating join that returns all rows from tdata a
 ### right_join(y,x)
 ```{r, right_join_2}
 rj <- right_join(tdata, pdata) 
-knitr::kable(rj[1:20,], caption = "Left join between tdata (x) and odata (y)")
+knitr::kable(rj[1:20,], caption = "Right join between tdata (x) and odata (y)")
 ```
 
 The **right_join** function is a mutating join that returns all rows from 'x' (tdata) and adds columns from 'y' (pdata). This function matches tdata and pdata by the variable **Club**. If **Club** from tdata and pdata match then the function will bind additional information from pdata such as **First_Name**, **Last_Name**,and **Nationality** to tdata. The new table tells us all player names, and adds the team information from tdata, for clubs that matched the list in pdata. 
@@ -281,6 +281,6 @@ knitr::kable(aj[1:17,], caption = "Anti join between tdata (x) and pdata (y)")
 
 Anti_join returns all rows from tdata where there are **non-matching** values for **Club** in pdata, and keeps only just the columns from pdata. This output returned 17 rows, because there are 17 clubs from tdata which do not exist in the Club variable from tdata.
 
-### Argument Order for Join FUnctions
+### Argument Order for Join Functions
 
 Overall, order matters when using the join functions. As evidenced by some of the join prompts above, the ordering of datasets in the argument field can create differing output and also affects the ordering of the variables from the output

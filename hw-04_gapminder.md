@@ -105,7 +105,7 @@ on a table.
 
     # present newly reshaped data frame into a table, with additional formatting (preserve row and column labels)
     gm_tidy %>%
-        knitr::kable(caption = "This table summarizes the life expectancy every 4 years for Canada,                 France, Japan, New Zealand, and South Africa")
+    knitr::kable(caption = "This table summarizes the life expectancy every 4 years for Canada, France, Japan, New Zealand, and South Africa")
 
 <table>
 <caption>This table summarizes the life expectancy every 4 years for Canada, France, Japan, New Zealand, and South Africa</caption>
@@ -358,7 +358,7 @@ data:
     pdata <- read_csv("player_data.csv", skip = 0) # read player data, don't skip any rows
     tdata <- read_csv("team_data.csv", skip = 0) # read team data, don't skip any rows
 
-we loaded the tidyverse package earlier, the tidyverse package contains
+We loaded the tidyverse package earlier, the tidyverse package contains
 **dplyr** which provides the join functions we will be using. The
 **readr** package allows us to use the *read\_csv()* function to upload
 the csv into our R-Studio environment.
@@ -3302,10 +3302,10 @@ the new columns binded from pdata
 
     ## Joining, by = "Club"
 
-    knitr::kable(rj[1:20,], caption = "Left join between tdata (x) and odata (y)")
+    knitr::kable(rj[1:20,], caption = "Right join between tdata (x) and odata (y)")
 
 <table>
-<caption>Left join between tdata (x) and odata (y)</caption>
+<caption>Right join between tdata (x) and odata (y)</caption>
 <thead>
 <tr class="header">
 <th align="left">Club</th>
@@ -4107,7 +4107,7 @@ values for **Club** in pdata, and keeps only just the columns from
 pdata. This output returned 17 rows, because there are 17 clubs from
 tdata which do not exist in the Club variable from tdata.
 
-### Argument Order for Join FUnctions
+### Argument Order for Join Functions
 
 Overall, order matters when using the join functions. As evidenced by
 some of the join prompts above, the ordering of datasets in the argument
