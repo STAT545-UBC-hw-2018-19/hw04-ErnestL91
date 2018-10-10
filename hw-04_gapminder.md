@@ -262,8 +262,7 @@ Africa and looking at their trend/relationship.
            colour = "Country") + 
       theme_bw() # give a white background to the graph
 
-![](hw-04_gapminder_files/figure-markdown_strict/untidy%20comparison%20scatter-1.png)
-<br/>
+![](hw-04_gapminder_files/figure-markdown_strict/Figure%201-1.png) <br/>
 
 The visual plot from the untidy dataset confirm our observations from
 the tabular data. Canada, France, Japan, and New Zealand have similar
@@ -305,8 +304,7 @@ all timepoints compared to Japan, New Zealand and France.
            caption = "Figure 2. Life expectancy every 5 years between South Africa and Canada") + 
       theme_bw() # give a white background to the graph
 
-![](hw-04_gapminder_files/figure-markdown_strict/tidy%20comparison%20scatter-1.png)
-<br/>
+![](hw-04_gapminder_files/figure-markdown_strict/Figure%202-1.png) <br/>
 
 This plot is a bit different from the first plot, as this plot allows
 the comparison between the rate of change in life expectancy between two

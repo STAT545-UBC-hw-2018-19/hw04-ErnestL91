@@ -87,7 +87,7 @@ The next section will show a scatterplot of life expectancy across all timepoint
 
 Two plots will be presented: An individual scatter plot of life expectancy across all timepoints for each country from the untidy data set, and a scatterplot comparing Canada's life expectancy to South Africa and looking at their trend/relationship.
 
-```{r, untidy comparison scatter}
+```{r, Figure 1}
 # Start a scatterplot with the untidy data first
 tibble %>%
   
@@ -117,7 +117,7 @@ The visual plot from the untidy dataset confirm our observations from the tabula
 
 For the next plot, we will use the reshaped data set to plot life expectancies of South Africa against the life expectancies of Canada across all time points. I chose Canada because I have lived here for almost my whole life, and I am comparing it to South Africa because this country had a noticeably different tracjectory in life expectancy across all timepoints compared to Japan, New Zealand and France.
 
-```{r, tidy comparison scatter}
+```{r, Figure 2}
 # Create scatter plot, with Canada and Africa on the x- and y-axis respectively. 
 gm_tidy %>%
 
