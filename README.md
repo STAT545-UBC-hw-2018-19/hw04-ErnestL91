@@ -7,7 +7,7 @@ HW-04 looks at data reshaping and joining prompts. This repository contains the 
 
 **1)** Data reshaping analysis: The [**gapminder**](https://cran.r-project.org/web/packages/gapminder/index.html) dataset was used, and I reshaped the gapminder file to provide a tibble with one row per year and columns for life expectancy for five countries. This new data shape was used to do a scatterplot looking at life expectancy between Canada and South Africa.
 
-**Image files used:** [**Figure 1**](https://github.com/STAT545-UBC-students/hw04-ErnestL91/blob/master/hw-04_gapminder_files/figure-markdown_strict/untidy%20comparison%20scatter-1.png), [**Figure 2**](https://github.com/STAT545-UBC-students/hw04-ErnestL91/blob/master/hw-04_gapminder_files/figure-markdown_strict/tidy%20comparison%20scatter-1.png)
+**Image files used:** [**Figure 1**](https://github.com/STAT545-UBC-students/hw04-ErnestL91/blob/master/hw-04_gapminder_files/figure-markdown_strict/Figure%201-1.png), [**Figure 2**](https://github.com/STAT545-UBC-students/hw04-ErnestL91/blob/master/hw-04_gapminder_files/figure-markdown_strict/Figure%202-1.png)
 
 
 **2)** For the join prompt, I chose to focus my topic on soccer. Two .csv excel files were used:
